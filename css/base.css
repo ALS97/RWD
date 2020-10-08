@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body, main{
+    grid-template-columns: 240px 240px;
+    grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+    display:grid;
+}
+
+@media only screen and (min-width:768px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin:auto;
+    }
+    body, main{
+        grid-template-columns: 200px 190px 190px 190px 190px;
+        grid-template-rows:  100px 200px 250px 80px;
+        display:grid;
+    }
+
+}
